@@ -1,4 +1,4 @@
-`# Deepgram Transcriber
+# Deepgram Transcriber
 
 ## Overview
 
@@ -62,8 +62,6 @@ This will install all the required packages listed in `package.json`.
 1.  Create an account on [Deepgram](https://www.deepgram.com/).
 2.  Generate an API key from the Deepgram dashboard.
 3.  Store the Deepgram API key in a `.env` file as shown below:
-
-env
 `DEEPGRAM_API_KEY=your-deepgram-api-key-here`
 
 Make sure the `.env` file is placed in the root directory of the project.
