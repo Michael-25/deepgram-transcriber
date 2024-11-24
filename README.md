@@ -46,17 +46,11 @@ This is a real-time transcription application built using React. The app listens
 
 ### 1. Clone the repository
 First, clone the repository to your local machine. Use the following command in your terminal:
-
-```bash
-git clone https://github.com/your-username/deepgram-transcriber.git `
+`git clone https://github.com/your-username/deepgram-transcriber.git `
 
 ### 2\. Install dependencies
 
 Navigate into the project directory and install the necessary dependencies using npm (Node Package Manager):
-
-bash
-
-Copy code
 
 `cd deepgram-transcriber
 npm install`
@@ -70,9 +64,6 @@ This will install all the required packages listed in `package.json`.
 3.  Store the Deepgram API key in a `.env` file as shown below:
 
 env
-
-Copy code
-
 `DEEPGRAM_API_KEY=your-deepgram-api-key-here`
 
 Make sure the `.env` file is placed in the root directory of the project.
@@ -80,11 +71,6 @@ Make sure the `.env` file is placed in the root directory of the project.
 ### 4\. Run the React App
 
 Once you have the dependencies installed and the Deepgram API token set up, you can start the React app.
-
-bash
-
-Copy code
-
 `npm start`
 
 This will run the app in development mode. Open your browser and navigate to `http://localhost:3000` to view the app.
