@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@deepgram/sdk": "^3.9.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "deepgram-transcriber": "file:",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "isomorphic-ws": "^5.0.0",
+    "media-recorder": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "ws": "^8.18.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
   }
 }
